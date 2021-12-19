@@ -46,7 +46,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ git clone https://github.com/raphael-nds/DesafioStone.git
 
     # Entrar no diretório
-    $ cd Desafio-Stone
+    $ cd DesafioStone
 
     # Instalar as dependências
     $ yarn install
