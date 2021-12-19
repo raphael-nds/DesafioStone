@@ -28,7 +28,7 @@ const schema = yup.object().shape({
    percentage: yup
       .string()
 
-      .required('Digite o valor do importo estadual. Ex: 5.30')
+      .required('Digite o valor do imposto estadual. Ex: 5.30')
 })
 
 export const typesPurchase = [
