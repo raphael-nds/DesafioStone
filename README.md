@@ -5,7 +5,7 @@
 
 ## Demo
 
-[Demonstração da aplicação - publicada na Vercel](https://desafio-stone-swart.vercel.app/)
+[Demonstração da aplicação - publicada na Vercel](https://desafiostone.vercel.app/)
 
 ---
 
@@ -43,7 +43,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
     # Clonar o repositório
-    $ git clone https://github.com/raphael-nds/Desafio-Stone.git
+    $ git clone https://github.com/raphael-nds/DesafioStone.git
 
     # Entrar no diretório
     $ cd Desafio-Stone
@@ -55,14 +55,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ yarn start
 
     # STORYBOOK (EXECUTA A DOCUMENTAÇÃO DOS COMPONENTE ISOLADO)
-   $ yarn storybook
+    $ yarn storybook
 
-   # Testes
-   $ yarn test
+    # Testes
+    $ yarn test
 ```
 
 ---
 
 Desenvolvido 💜 por Raphael Nunes
-# DesafioStone
-# DesafioStone
