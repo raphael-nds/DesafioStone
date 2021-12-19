@@ -1,0 +1,54 @@
+import styled, { css } from 'styled-components'
+
+export const Wrapper = styled.div`
+   display: flex;
+   align-items: center;
+`
+
+export const Input = styled.input`
+   ${({ theme }) => css`
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      appearance: none;
+      width: 1.8rem;
+      height: 1.8rem;
+      border: 0.2rem solid ${theme.colors.main.mediumGrey};
+      border-radius: 50%;
+      background: transparent;
+      transition: background ${theme.transition.fast};
+      outline: none;
+      cursor: pointer;
+
+      position: relative;
+
+      &:focus {
+         box-shadow: 0 0 0.5rem ${theme.colors.main.green};
+         border: 0.2rem solid ${theme.colors.main.green};
+      }
+      &:before {
+         content: '';
+         width: 0.8rem;
+         height: 0.8rem;
+         border-radius: 50%;
+         background: ${theme.colors.main.green};
+         transition: opacity ${theme.transition.fast};
+         opacity: 0;
+         position: absolute;
+      }
+      &:checked {
+         &:before {
+            opacity: 1;
+         }
+      }
+   `}
+`
+
+export const Label = styled.label`
+   ${({ theme }) => css`
+      padding-left: ${theme.spacings.xxsm};
+      color: ${theme.colors.main.darkblue};
+      line-height: 1;
+      cursor: pointer;
+   `}
+`
