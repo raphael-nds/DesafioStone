@@ -51,7 +51,6 @@ export const CardForm = ({ dataItems }: Props) => {
 
       const dollar = Number(data.dollar)
       const rate = Number(data.percentage)
-      console.log(`dolar ${dollar} e rate ${rate}`)
       const bid = Number(dataItems.bid)
 
       if (data.typePurchase == 'dinheiro') {

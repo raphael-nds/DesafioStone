@@ -3,7 +3,7 @@
     <img src="public/print.png">
 </h1>
 
-## Demo
+## Demo:
 
 [Demonstração da aplicação - publicada na Vercel](https://desafiostone.vercel.app/)
 
@@ -16,14 +16,14 @@
 - [x] Utilize TypeScript
 - [x] Crie um cliente HTTP com axios
 - [x] Utilize uma bilbioteca de cache como swr ou react-query
-- [x] Utlize styled-components
+- [x] Utilize styled-components
 - [ ] Faça testes unitários dos seus componentes
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas:
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org)
 - [Typescript](https://www.typescriptlang.org/)
@@ -39,7 +39,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-## 🗂 Como baixar o projeto
+## 🗂 Como baixar o projeto:
 
 ```bash
     # Clonar o repositório
@@ -54,7 +54,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     # Iniciar o projeto
     $ yarn start
 
-    # STORYBOOK (EXECUTA A DOCUMENTAÇÃO DOS COMPONENTE ISOLADO)
+    # STORYBOOK (EXECUTAR A DOCUMENTAÇÃO DOS COMPONENTES)
     $ yarn storybook
 
     # Testes
